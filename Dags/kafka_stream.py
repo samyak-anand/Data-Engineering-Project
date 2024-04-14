@@ -41,4 +41,5 @@ def stream_data():
     res= format_data(res)
     print(json.dumps(res,indent=3))
 
+
 stream_data()
